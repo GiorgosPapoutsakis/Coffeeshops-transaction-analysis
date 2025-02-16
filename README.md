@@ -57,18 +57,18 @@
 ### Clustering (K-Means)
 - Grouped transactions based on purchased product types.
 - **Clusters Identified:**
-  1. Warm Beverage Enjoyers ☕
-  2. Gourmet Coffee Lovers 🍮
-  3. Espresso Fans ⚡
-  4. Classic Coffee Lovers 🏆
-  5. Chai Tea Enthusiasts 🍵
+  1. Warm Beverage Enjoyers
+  2. Gourmet Coffee Lovers
+  3. Espresso Fans
+  4. Classic Coffee Lovers
+  5. Chai Tea Enthusiasts
 
-### 🔸 Association Rules (Apriori Algorithm)
+### Association Rules (Apriori Algorithm)
 - Identified **frequent product pairs** purchased together.
 - Extracted **top 5 rules** with highest confidence scores.
 
 ---
-## 🛠 Tools & Technologies
+## Tools & Technologies
 | Category         | Tools Used |
 |-----------------|------------|
 | **Programming & Scripting** | Python (Jupyter Notebook) |
