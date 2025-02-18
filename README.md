@@ -10,10 +10,9 @@
 - Data mining techniques
 
 ## Dataset
-- **Source:** Kaggle (Coffee Sales Dataset)
-- **Period:** 01/01/2023 – 30/06/2023
+- **Source:** [Kaggle - Coffee Sales Dataset](https://www.kaggle.com/datasets/ahmedabbas757/coffee-sales)
 - **Size:** 149,116 rows, 11 columns
-- **Main Attributes:** `transaction_id`, `transaction_date`, `store_id`, `product_id`, `unit_price`, etc.
+- **Period:** 01/01/2023 – 30/06/2023
 
 ## Data Cleaning
 - Identified and resolved transaction ID inconsistencies.
@@ -36,10 +35,12 @@
 ## Data Visualization
 - **Tool Used:** Power BI Desktop
 - **Visuals Created:**
-  - Revenue & Transactions over Time
-  - Geospatial Map
-  - Sales by Product Category/Type
-  - Product Sales Quantities Matrix
+  - Revenue over time
+  - Transactions over time
+  - Geospatial map
+  - Transactions by time of the day
+  - Sales by product category
+  - Product sales quantities matrix
 - **Filters Implemented:**
   - Store Selection
   - Month
