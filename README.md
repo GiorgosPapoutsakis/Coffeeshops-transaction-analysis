@@ -16,31 +16,30 @@
 - **Main Attributes:** `transaction_id`, `transaction_date`, `store_id`, `product_id`, `unit_price`, etc.
 
 ## Data Cleaning
-- Identified and resolved **transaction ID inconsistencies**.
-- **Outlier analysis** confirmed reasonable pricing variations.
-- Cleaned dataset stored as a new **CSV file**.
+- Identified and resolved transaction ID inconsistencies.
+- Outlier analysis confirmed reasonable pricing variations.
+- Cleaned dataset stored as a new CSV file.
 
 ## Database Schema
-- Implemented a **Star Schema** in **SQL Server**:
-- Database setup in **SQL Server Management Studio (SSMS)**.
+- Implemented a Star Schema in SQL Server:
+- Database setup in SQL Server Management Studio (SSMS).
 
 ## ETL Process
-- Utilized **SQL Server Integration Services (SSIS)**.
-- **Extracted** data from CSV, **transformed** it, and **loaded** it into the database.
-- **Automated workflows** for efficient data ingestion.
+- Utilized SQL Server Integration Services (SSIS).
+- Extracted data from CSV, transformed it, and loaded it into the database.
+- Automated workflows for efficient data ingestion.
 
 ## OLAP Cube
-- Built using **SQL Server Analysis Services (SSAS)**.
-- Created a **cube** for multidimensional data analysis.
-- Included **Fact Table** as measure group and **Dimension Tables** for slicing and dicing.
+- Built using SQL Server Analysis Services (SSAS) for multidimensional data analysis.
+- Included Fact Table as measure group and Dimension Tables for slicing and dicing.
 
 ## Data Visualization
 - **Tool Used:** Power BI Desktop
 - **Visuals Created:**
-  - **Column & Line Charts** (Revenue & Transactions over Time)
-  - **Geospatial Map** (Store Locations & Sales Volume)
-  - **Pie & Bar Charts** (Sales by Product Category/Type)
-  - **Matrix Table** (Product Sales Quantities)
+  - Revenue & Transactions over Time
+  - Geospatial Map
+  - Sales by Product Category/Type
+  - Product Sales Quantities Matrix
 - **Filters Implemented:**
   - Store Selection
   - Month
@@ -57,13 +56,13 @@
   5. Chai Tea Enthusiasts
 
 ### Association Rules (Apriori Algorithm)
-- Identified **frequent product pairs** purchased together.
-- Extracted **top 5 rules** with highest confidence scores.
+- Identified frequent product pairs purchased together.
+- Extracted top 5 rules with highest confidence scores.
 
 ## Tools & Technologies
 | Category         | Tools Used |
 |-----------------|------------|
-| **Programming & Scripting** | Python (Jupyter Notebook) |
+| **Programming** | Python (Jupyter Notebook) |
 | **Database & ETL** | SQL Server, SSMS, SSIS |
-| **Analytics & Visualization** | SSAS, Power BI |
+| **Visualization** | Power BI |
 | **Machine Learning** | Scikit-learn (K-Means), MLxtend (Apriori) |
